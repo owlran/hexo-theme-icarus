@@ -28,8 +28,6 @@ customize:
     social_links:
         github: http://github.com/owlran1088
         twitter: https://twitter.com/owl1911
-        facebook:
-        dribbble:
         rss: /
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
