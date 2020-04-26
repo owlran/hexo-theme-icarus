@@ -42,7 +42,7 @@ widgets:
 
 # Search
 search:
-    insight: true # you need to install `hexo-generator-json-content` before using Insight Search
+    insight: false # you need to install `hexo-generator-json-content` before using Insight Search
     swiftype: # enter swiftype install key here
     baidu: false # you need to disable other search engines to use Baidu search, options: true, false
 
@@ -79,8 +79,8 @@ share: default # options: jiathis, bdshare, addtoany, default
 plugins:
     lightgallery: true # options: true, false
     justifiedgallery: true # options: true, false
-    google_analytics: # enter the tracking ID for your Google Analytics
-    google_site_verification: # enter Google site verification code
+    google_analytics: 'UA-164501475-1' # enter the tracking ID for your Google Analytics
+    google_site_verification: 'dM5LEJReOL2fq6kLTr-Q2KfStlH2Xdrj7kZ3suARdfc' # enter Google site verification code
     baidu_analytics: # enter Baidu Analytics hash key
     mathjax: false # options: true, false
 
