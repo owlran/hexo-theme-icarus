@@ -32,6 +32,15 @@
             <%- post.content %>
         <% } %>
         </div>
+        <% if (!index && post.layout === 'post' && post.copyright !== false) { %>
+            <ul class="post-copyright">
+                <li><strong>本文標題：</strong><a href="<%= post.permalink %>"><%= page.title %></a></li>
+                <li><strong>本文作者：</strong><a href="<%= theme.url %>"><%= theme.author %></a></li>
+                <li><strong>本文連結：</strong><a href="<%= post.permalink %>"><%= post.permalink %></a></li>
+                <li><strong>發佈時間：</strong><%= post.date.format("YYYY-MM-DD") %></li>
+                <li><strong>版權聲明：</strong>本站所有文章除特別聲明外，均採用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="external nofollow" target="_blank">CC BY-NC-SA 4.0</a> 許可協議。轉載請著名出處！</li>
+            </ul>
+        <% } %>
         <footer class="article-footer">
             <%- partial('share/index', { post: post }) %>
             <%- partial('comment/counter', { post: post }) %>
