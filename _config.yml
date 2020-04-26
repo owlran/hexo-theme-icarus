@@ -23,7 +23,7 @@ customize:
         follow: https://github.com/owlran/
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
-    thumbnail: true # enable posts thumbnail, options: true, false
+    thumbnail: false # enable posts thumbnail, options: true, false
     favicon: # path to favicon
     social_links:
         github: http://github.com/owlran1088
@@ -94,4 +94,3 @@ miscellaneous:
         twitter_id:
         google_plus:
     links:
-        Hexo: http://hexo.io
