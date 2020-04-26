@@ -9,27 +9,27 @@ menu:
 # Customize
 customize:
     logo:
-        enabled: true
+        enabled: false
         width: 40
         height: 40
         url: images/logo.png
     profile:
         enabled: true # Whether to show profile bar
-        avatar: css/images/avatar.png
+        avatar: css/images/avatar.jpg
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: PPOffice
-        author_title: Web Developer & Designer
-        location: Harbin, China
-        follow: https://github.com/ppoffice/
+        author: Aaron
+        author_title: Frontend developer
+        location: Taipei, Taiwan
+        follow: https://github.com/owlran/
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
     social_links:
-        github: http://github.com/ppoffice/hexo-theme-icarus
-        twitter: /
-        facebook: /
-        dribbble: /
+        github: http://github.com/owlran1088
+        twitter: https://twitter.com/owl1911
+        facebook:
+        dribbble:
         rss: /
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
@@ -50,10 +50,10 @@ search:
 
 # Comment
 comment:
-    disqus:  # enter disqus shortname here
+    disqus: owlran # enter disqus shortname here
     duoshuo: # enter duoshuo shortname here
     youyan: # enter youyan uid here
-    facebook: # enter true to enable
+    facebook: true # enter true to enable
     isso: # enter the domain name of your own comment isso server eg. comments.example.com
     changyan: # please fill in `appid` and `conf` to enable
         appid:
